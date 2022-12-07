@@ -1,5 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 70rem;
+  background-color: #b1b1b1;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 50%;
+  padding: 1rem;
+}
+.square {
+  width: 100%;
+  height: 8rem;
+}
+.div-1 {
+  background-color: red;
+}
+.div-2 {
+  background-color: blanchedalmond;
+}
+.div-3 {
+  background-color: royalblue;
+}
+.div-4 {
+  background-color: rosybrown;
+}
+.div-5 {
+  background-color: lightgrey;
+}
+.div-6 {
+  background-color: brown;
+}
+.div-7 {
+  background-color: lightblue;
+}
+.div-8 {
+  background-color: palevioletred;
 }
