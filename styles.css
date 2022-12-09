@@ -6,11 +6,12 @@
 
 .container {
   margin: 0 auto;
-  margin-top: 10rem;
-  width: 70rem;
+  margin-top: 8rem;
+  max-width: 40rem;
   background-color: #b1b1b1;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 .card {
@@ -19,9 +20,9 @@
   grid-template-rows: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   padding: 1rem;
-  
+  background-color: white;
 }
 .square {
   width: 100%;
